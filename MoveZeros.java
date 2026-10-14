@@ -1,4 +1,5 @@
-
+import java.util.Scanner;
+import java.util.Arrays;
 class MoveZeros {
      static void MoveZeros(int[] arr) {
           int i = 0, j = 0;
