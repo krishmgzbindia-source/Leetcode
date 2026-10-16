@@ -4,7 +4,7 @@ public class RainTrap {
 
      static int Raintrap(int[] arr) {
           int left = 0;
-          int right = 0;
+          int right = arr.length - 1;
           int leftmax = 0;
           int rightmax = 0;
           int ans = 0;
@@ -14,10 +14,10 @@ public class RainTrap {
                rightmax = Math.max(rightmax, arr[right]);
 
                if (arr[left] < arr[right]) {
-                    ans += leftmax - left;
+                    ans += leftmax - arr[left];
                     left++;
                } else {
-                    ans += rightmax - right;
+                    ans += rightmax - arr[right];
                     right--;
                }
 
