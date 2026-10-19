@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class test {
+public class MinimumInRotatedSortedArray {
 
     static int findMin(int[] nums) {
         int left = 0;
