@@ -38,7 +38,7 @@ public class SearchInRotatedSortedArray {
     }
     System.out.println("enter the targeted number");
     int num = s.nextInt();
-    System.out.println(SearchInRotatedSortedArray(arr, num));
+    System.out.println(SearchInRotatedSortedArrayF(arr, num));
 
   }
 
